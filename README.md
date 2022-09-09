@@ -1,4 +1,4 @@
-# package rpm for dockre distribution
+# package rpm for docker distribution
 
 [distribution](https://github.com/distribution/distribution) is a member of cncf, it had rpm long before, but now we can't find the rpm for newest version. So we build a new one for it.
 
