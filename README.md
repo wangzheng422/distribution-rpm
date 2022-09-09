@@ -9,7 +9,11 @@ Note: this is a demo, and only build for openshift 4 / rhcos / coreos
 ```bash
 dnf install -y rpmdevtools rpmlint
 
+git clone https://github.com/wangzheng422/distribution-rpm
 
+cp -r distribution-rpm/rpmbuild ~/rpmbuild
+
+rpmbuild -bb ./rpmbuild/SPECS/docker-distribution.spec
 
 ```
 
@@ -17,6 +21,9 @@ dnf install -y rpmdevtools rpmlint
 
 ```bash
 
+wget https://github.com/wangzheng422/distribution-rpm/releases/download/v2.8.1-0/docker-distribution-2.8.1-0.el8.x86_64.rpm
+
+dnf install docker-distribution-2.8.1-0.el8.x86_64.rpm
 
 ```
 
