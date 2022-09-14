@@ -5,6 +5,8 @@ Summary:        package for docker-distribution
 ExclusiveArch:  x86_64
 
 License:        GPL
+URL:            https://github.com/wangzheng422/distribution-rpm
+
 Source0:        src.tar.gz
 %undefine _disable_source_fetch
 Source1:        https://github.com/distribution/distribution/releases/download/v%{version}/registry_%{version}_linux_amd64.tar.gz
